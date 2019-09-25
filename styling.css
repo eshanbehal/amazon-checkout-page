@@ -23,11 +23,22 @@ body, html{
     display: flex;
     flex-direction: row;
 /*    background-color: chocolate;*/
+    flex-wrap: wrap;
+}
+
+.details{
+    background-color: aqua;
+    flex: 3;
+}
+
+.comments{
+    background-color: blanchedalmond;
+    flex: 1;
 }
 
 .submit{
     
     background-color: blue;
-    margin-top: auto;
+    margin-top: 707px;
     
 }
