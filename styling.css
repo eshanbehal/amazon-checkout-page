@@ -80,6 +80,26 @@ body, html{
     margin-top: 0.5em;
 }
 
+/*1.1.4 for checks*/
+
+.checks{
+    display: flex;
+}
+
+.checks label{
+    flex: 1;
+}
+
+/*
+.checks label:nth-child(1){
+    order: 2;
+}
+
+.checks label:nth-child(2){
+    order: 1;
+}
+*/
+
 /*1.2 comments*/
 .comments{
     background-color: blanchedalmond;
